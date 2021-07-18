@@ -1,10 +1,44 @@
 
+
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 
+
 .sglogo {
-	width: 120px;
+	width: 250px;
 }
+
+#landing {
+	background-image: url(./images/black_leather.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.jumbotron {
+	background-color: rgb(35, 38, 39);
+	padding: 4rem 2rem;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+#landing2 {
+	background-image: url(./images/black_leather.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#ecommerce {
+	text-align: center;
+}
+
+
+
