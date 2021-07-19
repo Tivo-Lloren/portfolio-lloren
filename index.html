@@ -6,7 +6,9 @@
 	<title>Capstone 1 Web Portfolio</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+	<script src="https://kit.fontawesome.com/99683778a1.js" crossorigin="anonymous"></script>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,13 +36,13 @@
 	        <a class="nav-link" href="#projects">Projects</a>
 	      </li>
 	      <li class="nav-item">
-	      	<a class="nav-link" href="#">Tools</a>
+	      	<a class="nav-link" href="#tools">Tools</a>
 	      </li>
 	      <li>
-	      	<a class="nav-link" href="#">Services</a>
+	      	<a class="nav-link" href="#services">Services</a>
 	      </li>
 	      <li class="nav-item">
-	      	<a class="nav-link" href="#">Contact</a>
+	      	<a class="nav-link" href="#contact">Contact</a>
 	      </li>
 	    </ul> 
 	  </div>
@@ -48,15 +50,19 @@
 	<!-- Navbar end -->
 	<!-- Jumbotron1 container start -->
 	<div class="container mt-5">
-		<div class="jumbotron my-3 d-flex flex-column justify-content-center align-items-center bg-image" id="landing">
-			<div class="row text-white d-flex flex-row justify-content-center">
+		<div class="jumbotron my-3 bg-image " id="landing">
+			<div class="text-white d-flex flex-column justify-content-center">
 			
-				<div class="mx-auto container-fluid text-center pt-3 pb-3">
+				<div class="mx-auto text-center pt-3 pb-3">
 						<img src="./images/slackprofilepicS09.jpg" class="tivopic border border-white rounded">	
 				</div>
-				<h4 class="my-2">Eutiquio A Lloren Jr.</h4>
-				<h4 class="my-2 text-center">Full Stack Web Developer</h4>
-				<div class="col-md-8">
+				
+				<h4 class="my-2 text-center">Eutiquio A Lloren Jr.</h4>
+				<h4 class="my-2 text-center">aka Tivo</h4>
+				
+				<h4 class="my-2 text-center d-block">Full Stack Web Developer</h4>
+				
+				<div>
 					<p class="text-justify my-2">
 							I am primarily a self taught Full Stack Web Developer and I've always found web development and coding intuitive, exciting and fun and have pushed myself to learn the most effective and creative ways to achieve desired results. I continually immerse myself in the newest technologies and most updated tools for web development and design. I'm a fast and passionate learner who can quickly integrate into a team and contribute value to a company and its customers. I have the passion, the personality and the staying power. Let's talk. 
 					</p>
@@ -67,21 +73,20 @@
 	<!-- Jumbotron1 container end -->
 
 	<!-- Start of Projects -->
-	<h4 class="text-center text-white">Past Projects</h4>
+	<h4 class="text-center text-white" id="projects">Past Projects</h4>
 	<div class="container ">
-		<div class="jumbotron my-3 bg-image" id="projects">
+		<div class="jumbotron my-3 bg-image">
 			<div class="row">
 			
 
 				<div class="col-md-6 order-md-1 order-2">
 					<h3 class="text-center text-white">E-Commerce API</h3>
-						<p class="text-white">
-							1st row first half. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						<p class="text-justify text-white">
+							E-Commerce APIs help developers transfer information frome one software to another and then use this data in a single user interface. APIs work as an extensible platform that integrates with various solutions so companies can take advantage of their existing functionality without building features from scratch.
+
+							APIs help integrate several platforms with one another. For example, you can integrate your E-commerce website with a shipping provider's account and import your data for orders and shipments. This way, you can streamline your shipping operations on one platform.
+
+							E-commerce fulfillment APIs can help businesses automate, coordinate, manage, and streamline their operations with features such as order fulfillment, courier management, labeling, invoicing, printing shipment information, tracking, and confirmation notifications.
 						</p>
 				</div>
 
@@ -139,13 +144,12 @@
 
 			<div class="col-md-6 order-md-1 order-2">
 				<h3 class="text-center text-white">E-Commerce React Front-end</h3>
-					<p class="text-white">
-						1st row first half. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p class="text-white text-justify">
+						React.js is one of the most highly used open-source JavaScript Libraries that enables teams to build user interfaces. With react js, teams can create beautiful, custom ecommerce websites and web apps with minimal effort or coding.
+
+						According to research done by Stakoverflow in 2019, React.js was the most loved web framework, with 74.5% of votes, while Angualr.js was ranked 9th with 57.6% of votes. Today, more than 900,000 live websites worldwide use React.js, which makes it one of the most popular frameworks.
+
+						The component-based approach to React.js gives developers the ability to re-use code snippets across ecommerce apps or even multiple web applications. This accelerates the time-to-market for new touchpoints or features and makes it easier to change or debug existing ones.
 					</p>
 			</div>
 
@@ -164,8 +168,8 @@
 		
 	</div>
 
-	<h1 class="text-center text-white">Tools I Use</h1>
-<div class="container">
+	<h3 class="text-center text-white" id="tools">Tools I Use</h3>
+<div class="container mb-3">
 	<div class="d-flex flex-wrap justify-content-center">
 		<div><img src="./images/logo-html5.png" style="width:80px"></div>	
 		<div><img src="./images/logo-css3.png" style="width:80px"></div>
@@ -179,35 +183,34 @@
 		<div><img src="./images/logo-bootstrap.png" style="width:80px"></div>
 		<div><img src="./images/logo-postman.png" style="width:80px"></div>
 		<div><img src="./images/logo-rest.png" style="width:80px"></div>
-		
-	
 	</div>
-
 </div>
+
+<h3 class="text-center text-white mt-6" id="services">Services I Offer</h3>
 
 <div class="container mt-5 mb-5">
-<div class="card-deck">
+	<div class="card-deck">
+  		<div class="card">
+    		<img src="https://miro.medium.com/max/3200/1*5IYtIe5OwxeoYXi226J-Uw.jpeg" class="card-img-top img-fluid" alt="...">
+    		<div class="card-body">
+      		<h5 class="card-title">Web Design & Development</h5>
+      		<p class="card-text">I focus on speed and quality. Only imagination is the limit. I'll work to develop a website that flawlessly operates, reinforces your brand, and getting results.</p>
+      		<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    	</div>
+  </div>
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="https://filmdaily.co/wp-content/uploads/2021/04/seo-lede.jpg" class="card-img-top img-fluid" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title">Search Engine Optimization</h5>
+      <p class="card-text">The creative aspects of your business and online presence must top-notch. I'll combine functional design with your business goals to ensure your brand is above the competition.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="https://assets.entrepreneur.com/content/3x2/2000/20190820185239-GettyImages-985550942.jpeg" class="card-img-top img-fluid" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title">Digital Marketing</h5>
+      <p class="card-text">I can help you launch a successful digital marketing campaign to connect, communicate and keep your customers coming back-through efficient conversions, repeat trafic and brand community expansion.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
@@ -215,14 +218,14 @@
 </div>
 
 
-<div class="container">
+<div class="container mt-5">
 	<div class="row">
 		<div class="col-md-6 border border-dark">
-			<h2 class="text-center text-white">Find Me!</h2>
+			<h3 class="text-center text-white">Find Me!</h3>
 				<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=cebu%20city&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 		</div>
 		<div class="col-md-6 border border-dark">
-			<h2 class="text-center text-white">Reach Out!</h2>
+			<h3 class="text-center text-white" id="contact">Reach Out!</h3>
 			<form>
 				<div class="form-group">
 					<label for="RofullName">Full Name</label>
@@ -311,11 +314,16 @@
 			<p class="text-center text-white">Eutiquio Avila Lloren Jr.</p>
 			<p class="text-center text-white">All Rights Reserved.
 			</p>
-			<div>
-				<a href="#" class="fa fa-facebook"></a>
-				<a href="#" class="fa fa-twitter"></a>
+			<div class="container d-flex flex-row justify-content-center">
+				<div class="mr-4">
+					<a href="https://www.facebook.com/tivo.atheos/"><i class="fab fa-facebook-f "></i></a> 
+					
+				</div>
+				<div>
+					<a href="https://www.youtube.com/playlist?list=LL"><i class="fab fa-youtube "></i></a>
+				</div>
 			</div>
-            </div>	
+            
 		</footer>
 	</div>
 
